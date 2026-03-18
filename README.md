@@ -4,7 +4,7 @@ A production-grade, full-stack application for securely storing files in the clo
 
 ## 🚀 Live Demo
 
-**[Frontend (Vercel)](https://secure-api-gateway-with-intelligent.vercel.app)** | **[Backend (Render)](https://secure-api-gateway-with-intelligent-rate-kaqb.onrender.com)**
+**[link)](https://secure-api-gateway-with-intelligent.vercel.app/login)**
 
 > **Security Note**: Your RSA private key is generated locally in your browser during registration and is **never saved to the server**. Download it immediately after registration, as it is the only way to recover your files.
 
@@ -35,19 +35,3 @@ A production-grade, full-stack application for securely storing files in the clo
 | **Deployment** | Vercel (Frontend) + Render (Dockerized Java) |
 
 ---
-
-## 🛠️ Local Development
-
-1. **Backend**:
-   - `cd backend-java`
-   - Set environment variables: `MONGODB_URI`, `JWT_SECRET`, `CLOUDINARY_*`
-   - Run: `./mvnw spring-boot:run`
-
-2. **Frontend**:
-   - `cd frontend`
-   - Run: `npm install` && `npm run dev`
-
----
-
-Developed with ❤️ for Secure Cloud Storage.
-
