@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+
+# Frontend specifics (Vite/React)
+frontend/node_modules/
+frontend/dist/
+
+# Backend specifics (Node.js)
+backend/node_modules/
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/config/firebaseServiceAccount.json
+
+# Java / Maven
+backend-java/target/
+backend-java/*.class
+backend-java/*.jar
+backend-java/.mvn/
