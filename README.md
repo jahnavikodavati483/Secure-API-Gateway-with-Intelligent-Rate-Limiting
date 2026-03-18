@@ -4,7 +4,7 @@ A production-grade, full-stack application for securely storing files in the clo
 
 ## 🚀 Live Demo
 
-**[link)](https://secure-api-gateway-with-intelligent.vercel.app/login)**
+**[live Link](https://secure-api-gateway-with-intelligent.vercel.app/login)**
 
 > **Security Note**: Your RSA private key is generated locally in your browser during registration and is **never saved to the server**. Download it immediately after registration, as it is the only way to recover your files.
 
@@ -26,7 +26,7 @@ A production-grade, full-stack application for securely storing files in the clo
 
 | Component | Technology |
 |---|---|
-| **Frontend** | React (Vite), Tailwind CSS, Lucide Icons |
+| **Frontend** | React (Vite) |
 | **Backend** | **Java 17, Spring Boot 3, Spring Security 6** |
 | **Database** | MongoDB Atlas (Spring Data) |
 | **Cloud Storage** | Cloudinary SDK |
