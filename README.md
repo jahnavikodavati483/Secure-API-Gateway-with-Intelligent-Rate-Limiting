@@ -6,7 +6,7 @@ Files are encrypted in the browser — the server never sees raw data (**zero-kn
 ---
 
 ## 🚀 Live Demo  
-https://secure-api-gateway-with-intelligent.vercel.app/dashboard  
+https://secure-api-gateway-with-intelligent.vercel.app/login
 
 ---
 
