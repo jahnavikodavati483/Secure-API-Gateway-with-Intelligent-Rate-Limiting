@@ -11,7 +11,7 @@ https://secure-api-gateway-with-intelligent.vercel.app/login
 ---
 
 ## 📸 Preview  
-![Dashboard](dashboard.png)
+![Dashboard](dashboards.png)
 
 ---
 
