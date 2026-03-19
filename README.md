@@ -11,7 +11,7 @@ https://secure-api-gateway-with-intelligent.vercel.app/login
 ---
 
 ## 📸 Preview  
-![Dashboard]("C:\Users\jahnavi kodavati\Pictures\Screenshots\Screenshot 2026-03-19 084338.png")
+![Dashboard](dashboard.png)
 
 ---
 
