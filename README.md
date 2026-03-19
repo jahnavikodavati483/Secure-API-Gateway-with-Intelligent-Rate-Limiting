@@ -11,17 +11,16 @@ https://secure-api-gateway-with-intelligent.vercel.app/dashboard
 ---
 
 ## 📸 Preview  
-![Dashboard](sandbox:/mnt/data/Screenshot%202026-03-19%20084338.png)
+![Dashboard]("C:\Users\jahnavi kodavati\Pictures\Screenshots\Screenshot 2026-03-19 084338.png")
 
 ---
 
-## ✨ Key Features  
+## 📚 What I Learned  
 
-- 🔒 Client-side encryption (Zero-Knowledge)  
-- 🗝️ AES-256 (file encryption) + RSA-2048 (key encryption)  
-- ☁️ Cloud storage using Cloudinary  
-- 🛡️ JWT authentication with Spring Security  
-- 📂 Secure upload, download, and deletion  
+- Applied hybrid encryption using AES-256 and RSA-2048 in a real-world system  
+- Designed a zero-knowledge architecture with client-side encryption  
+- Implemented secure authentication using JWT and Spring Security  
+- Gained experience in full-stack development and cloud deployment  
 
 ---
 
@@ -45,17 +44,3 @@ https://secure-api-gateway-with-intelligent.vercel.app/dashboard
 - Deployment: Vercel + Render  
 
 ---
-
-## 📚 What I have learned 
-
-- Hybrid encryption (AES + RSA)  
-- Zero-knowledge system design  
-- Secure key management  
-- Full-stack deployment  
-
----
-
-## ⚠️ Note  
-
-Private key is generated in-browser and not stored on server.  
-Losing it means losing access to files.
