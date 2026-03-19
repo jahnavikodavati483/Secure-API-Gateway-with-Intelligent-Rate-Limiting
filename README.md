@@ -1,37 +1,61 @@
 # 🔐 Secure Cloud File Storage & Vault
 
-A production-grade, full-stack application for securely storing files in the cloud using **client-side AES-256 + RSA-2048 encryption**. Files are encrypted on the user's device before being uploaded — the server never sees raw file contents or decryption keys.
-
-## 🚀 Live Demo
-
-**[live Link](https://secure-api-gateway-with-intelligent.vercel.app/login)**
-
-> **Security Note**: Your RSA private key is generated locally in your browser during registration and is **never saved to the server**. Download it immediately after registration, as it is the only way to recover your files.
+A full-stack application for securely storing files using **client-side AES-256 + RSA-2048 encryption**.  
+Files are encrypted in the browser — the server never sees raw data (**zero-knowledge architecture**).
 
 ---
 
-## ✨ Features
-
-- 🔒 **True Zero-Knowledge** : Encryption happens entirely in the browser; the server only stores encrypted blobs.
-- 🗝️ **Asymmetric Cryptography** : AES keys are wrapped in RSA-2048, ensuring only the key holder can decrypt.
-- ☁️ **Cloud Storage Integration** : Securely integrated with Cloudinary for handling large file uploads.
-- 🗄️ **Persistent Metadata** : File details and user records managed with MongoDB Atlas.
-- 🛡️ **Enterprise Security** : Backend protected by Spring Security 6 and JWT authentication.
-- 📂 **Dashboard** : Instant upload, real-time decryption (download), and secure deletion.
-- 📱 **Premium UI** : Responsive, Neobanking-inspired aesthetic built with React and Lucide.
+## 🚀 Live Demo  
+https://secure-api-gateway-with-intelligent.vercel.app/dashboard  
 
 ---
 
-## 🏗️ Tech Stack
-
-| Component | Technology |
-|---|---|
-| **Frontend** | React (Vite) |
-| **Backend** | **Java 17, Spring Boot 3, Spring Security 6** |
-| **Database** | MongoDB Atlas (Spring Data) |
-| **Cloud Storage** | Cloudinary SDK |
-| **Security** | `node-forge` (RSA-2048), `crypto-js` (AES-256) |
-| **Auth** | JWT (JSON Web Tokens) with Custom Filter Chain |
-| **Deployment** | Vercel (Frontend) + Render (Dockerized Java) |
+## 📸 Preview  
+![Dashboard](sandbox:/mnt/data/Screenshot%202026-03-19%20084338.png)
 
 ---
+
+## ✨ Key Features  
+
+- 🔒 Client-side encryption (Zero-Knowledge)  
+- 🗝️ AES-256 (file encryption) + RSA-2048 (key encryption)  
+- ☁️ Cloud storage using Cloudinary  
+- 🛡️ JWT authentication with Spring Security  
+- 📂 Secure upload, download, and deletion  
+
+---
+
+## 🏗️ Architecture  
+
+1. File encrypted using AES-256 (client-side)  
+2. AES key encrypted using RSA public key  
+3. Encrypted file → Cloudinary  
+4. Metadata + encrypted key → MongoDB  
+5. Decryption using user's private key  
+
+---
+
+## 🛠️ Tech Stack  
+
+- Frontend: React (Vite)  
+- Backend: Spring Boot, Java 17  
+- Database: MongoDB Atlas  
+- Storage: Cloudinary  
+- Security: AES + RSA, JWT  
+- Deployment: Vercel + Render  
+
+---
+
+## 📚 What I have learned 
+
+- Hybrid encryption (AES + RSA)  
+- Zero-knowledge system design  
+- Secure key management  
+- Full-stack deployment  
+
+---
+
+## ⚠️ Note  
+
+Private key is generated in-browser and not stored on server.  
+Losing it means losing access to files.
